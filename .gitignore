@@ -72,7 +72,7 @@ buildNumber.properties
 #=====================         https://github.com/github/gitignore/blob/master/Maven.gitignore        ==================
 #=======================================================================================================================
 #----------------IDEA-------------
-.idea/*
+.idea
 .idea/compiler.xml
 .idea/encodings.xml
 .idea/modules.xml
