@@ -29,10 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0335b8bb-6566-4347-90af-61b705985f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/Reflection4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionFrameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/pro.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection/src/main/java/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/src/main/java/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/src/main/java/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +78,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ReflectionDemo2">
-    <configuration name="ReflectionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectionDemo1" />
+  <component name="RunManager" selected="Application.ReflectionFrameDemo">
+    <configuration name="Reflection4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection4" />
       <module name="Reflection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +88,27 @@
     </configuration>
     <configuration name="ReflectionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReflectionDemo2" />
+      <module name="Reflection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionDemo3" />
+      <module name="Reflection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionDemo5" />
+      <module name="Reflection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionFrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionFrameDemo" />
       <module name="Reflection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionFrameDemo" />
+        <item itemvalue="Application.ReflectionDemo5" />
+        <item itemvalue="Application.Reflection4" />
+        <item itemvalue="Application.ReflectionDemo3" />
         <item itemvalue="Application.ReflectionDemo2" />
-        <item itemvalue="Application.ReflectionDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,31 +174,52 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1608766322413">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state x="761" y="242" width="511" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1608784995384">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="761" y="242" width="511" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608784995384" />
     <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1608766322413" />
-    <state width="1794" height="272" key="GridCell.Tab.0.bottom" timestamp="1608771773245">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1608786598502">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608786598502" />
     <state width="1794" height="272" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1794" height="272" key="GridCell.Tab.0.center" timestamp="1608771773245">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1608786598502">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608786598502" />
     <state width="1794" height="272" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1794" height="272" key="GridCell.Tab.0.left" timestamp="1608771773245">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1608786598501">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608786598501" />
     <state width="1794" height="272" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1794" height="272" key="GridCell.Tab.0.right" timestamp="1608771773245">
-      <screen x="72" y="27" width="1848" height="1053" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1608786598502">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608786598502" />
     <state width="1794" height="272" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
     <state x="2254" y="180" key="new project wizard" timestamp="1608718538789">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1608718538789" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608785647314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785647314" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Reflection/src/main/java/ReflectionFrameDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

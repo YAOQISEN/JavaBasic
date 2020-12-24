@@ -31,4 +31,16 @@ public class Person {
 
     private void study(String something){
         System.out.println("good good study..."+something);
-    }}
+    }
+
+    public Person() {
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}

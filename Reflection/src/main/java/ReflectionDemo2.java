@@ -2,6 +2,7 @@ import domain.Person;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 
 public class ReflectionDemo2 {
 //    * Class对象功能：
@@ -66,8 +67,41 @@ public class ReflectionDemo2 {
             System.out.println(constructor2);
         }
 
-        //3.
+//        3. 获取成员方法们：
+//            * Method[] getMethods()
+//			* Method getMethod(String name, 类<?>... parameterTypes)
+//
+//			* Method[] getDeclaredMethods()
+//			* Method getDeclaredMethod(String name, 类<?>... parameterTypes)
+        System.out.println("---------------------------------");
 
+        Method[] methods = aClass.getMethods();
+        for (Method method: methods){
+            System.out.println(method);
+        }
+
+        System.out.println("---------------------------------");
+
+        Method method = aClass.getMethod("study");
+        System.out.println(method);
+
+        System.out.println("---------------------------------");
+        Method[] declaredMethods = aClass.getDeclaredMethods();
+        for (Method declaredMethod:declaredMethods){
+            System.out.println(declaredMethod);
+        }
+
+        System.out.println("---------------------------------");
+        Method declaredMethod = aClass.getDeclaredMethod("study");
+        System.out.println(declaredMethod);
+
+        System.out.println("---------------------------------");
+
+        //4.
+        String name = aClass.getName();
+        System.out.println(name);
+        String simpleName = aClass.getSimpleName();
+        System.out.println(simpleName);
 
     }
 }
