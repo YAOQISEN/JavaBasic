@@ -3,9 +3,36 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0335b8bb-6566-4347-90af-61b705985f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/ReflectionDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection/src/main/java/domain/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +52,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -46,20 +73,38 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ReflectionDemo2">
+    <configuration name="ReflectionDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionDemo1" />
+      <module name="Reflection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionDemo2" />
+      <module name="Reflection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ReflectionDemo2" />
+        <item itemvalue="Application.ReflectionDemo1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,13 +116,57 @@
       <updated>1608717388782</updated>
       <workItem from="1608717389925" duration="737000" />
       <workItem from="1608718522940" duration="478000" />
+      <workItem from="1608765473198" duration="2962000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1608766322413">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1608766322413" />
+    <state width="1794" height="272" key="GridCell.Tab.0.bottom" timestamp="1608771773245">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1794" height="272" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
+    <state width="1794" height="272" key="GridCell.Tab.0.center" timestamp="1608771773245">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1794" height="272" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
+    <state width="1794" height="272" key="GridCell.Tab.0.left" timestamp="1608771773245">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1794" height="272" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
+    <state width="1794" height="272" key="GridCell.Tab.0.right" timestamp="1608771773245">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1794" height="272" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
     <state x="2254" y="180" key="new project wizard" timestamp="1608718538789">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
