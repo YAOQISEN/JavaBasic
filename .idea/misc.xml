@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Reflection/pom.xml" />
+        <option value="$PROJECT_DIR$/Annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/RedPacket/pom.xml" />
       </list>
     </option>
   </component>

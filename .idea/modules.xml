@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaBasic.iml" filepath="$PROJECT_DIR$/.idea/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedPacketVolidate/RedPacketVolidate.iml" filepath="$PROJECT_DIR$/RedPacketVolidate/RedPacketVolidate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
     </modules>
   </component>

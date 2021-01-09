@@ -7,9 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Reflection" />
+        <module name="Annotation" />
+        <module name="RedPacketVolidate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Annotation" target="1.5" />
+      <module name="RedPacketVolidate" target="8" />
       <module name="Reflection" target="1.5" />
     </bytecodeTargetLevel>
   </component>
