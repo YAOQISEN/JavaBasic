@@ -29,16 +29,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0335b8bb-6566-4347-90af-61b705985f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedPacketVolidate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedPacketVolidate/src/main/java/VolatileAtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RedPacketVolidate/src/main/java/VolatileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/Permissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/filter/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/shiro/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/shiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volatileDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/ResortSeqDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/VolatileAtomicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaBasic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_24_9_54_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_12_24_9_54__Default_Changelist_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection/Reflection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/Reflection.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +59,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,35 +70,45 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1m3LaDHN4j9KwviURuvabTl5kb3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/volatileDemo/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.VolatileAtomicDemo">
-    <configuration name="Reflection4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection4" />
-      <module name="Reflection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yqs.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\JavaNew\JavaBasic\volatileDemo\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.shiroApplication">
     <configuration name="ReflectionDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReflectionDemo5" />
       <module name="Reflection" />
@@ -101,38 +123,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileAtomicDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="VolatileAtomicDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VolatileAtomicDemo" />
-      <module name="RedPacketVolidate" />
+      <module name="volatileDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileAtomicDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="VolatileAtomicDemo" />
+      <module name="JavaBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RedPacketVolidate" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="VolatileDemo" />
-      <module name="RedPacketVolidate" />
+      <module name="volatileDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="shiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="shiroDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yqs.shiroApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.VolatileAtomicDemo" />
+      <item itemvalue="Application.ReflectionDemo5" />
+      <item itemvalue="Application.ReflectionFrameDemo" />
+      <item itemvalue="Application.VolatileAtomicDemo (1)" />
+      <item itemvalue="Application.VolatileDemo" />
+      <item itemvalue="Spring Boot.shiroApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolatileAtomicDemo" />
+        <item itemvalue="Spring Boot.shiroApplication" />
         <item itemvalue="Application.VolatileDemo" />
+        <item itemvalue="Application.VolatileAtomicDemo (1)" />
         <item itemvalue="Application.ReflectionFrameDemo" />
         <item itemvalue="Application.ReflectionDemo5" />
-        <item itemvalue="Application.Reflection4" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +192,13 @@
       <workItem from="1608718522940" duration="478000" />
       <workItem from="1608765473198" duration="2962000" />
       <workItem from="1608791614862" duration="2521000" />
-      <workItem from="1610157894297" duration="9754000" />
+      <workItem from="1610157894297" duration="9756000" />
+      <workItem from="1610330514645" duration="8136000" />
+      <workItem from="1610415983627" duration="1300000" />
+      <workItem from="1610444083108" duration="2100000" />
+      <workItem from="1610502341459" duration="636000" />
+      <workItem from="1610527736140" duration="4507000" />
+      <workItem from="1610588432354" duration="11994000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore文件">
       <created>1608790213327</created>
@@ -188,89 +238,132 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="gitignore文件" />
     <option name="LAST_COMMIT_MESSAGE" value="gitignore文件" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1610332214971">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610332214971" />
+    <state x="2463" y="197" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610528309177">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610528209996" />
+    <state x="2463" y="197" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610528309177" />
     <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608790179010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="699" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790179010" />
-    <state x="761" y="242" width="511" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1608784995384">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2681" y="242" width="511" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1610529977334">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="242" width="511" height="562" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608784995384" />
+    <state x="2681" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610529977334" />
     <state x="804" y="272" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1608766322413" />
+    <state x="715" y="221" key="#xdebugger.evaluate" timestamp="1610595806449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="221" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610595806449" />
     <state x="558" y="83" key="CommitChangelistDialog2" timestamp="1608790212600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="558" y="83" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790212600" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1610174489180">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="739" y="287" key="FileChooserDialogImpl" timestamp="1610331878432">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610172387519" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610174489180" />
+    <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610331878432" />
+    <state width="1877" height="330" key="GridCell.Tab.0.bottom" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
     <state width="1794" height="272" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1610174489180">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="330" key="GridCell.Tab.0.center" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610172387519" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610174489180" />
+    <state width="1877" height="330" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
     <state width="1794" height="272" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1610174489180">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="330" key="GridCell.Tab.0.left" timestamp="1610609076949">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610172387519" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610174489180" />
+    <state width="1877" height="330" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076949" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
     <state width="1794" height="272" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1610174489180">
+    <state width="1877" height="330" key="GridCell.Tab.0.right" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1794" height="272" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
+    <state width="1877" height="330" key="GridCell.Tab.1.bottom" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="330" key="GridCell.Tab.1.center" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="330" key="GridCell.Tab.1.left" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="330" key="GridCell.Tab.1.right" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="289" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="330" key="GridCell.Tab.2.bottom" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="330" key="GridCell.Tab.2.center" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="330" key="GridCell.Tab.2.left" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state width="1877" height="330" key="GridCell.Tab.2.right" timestamp="1610609076950">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="330" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
+    <state x="600" y="223" key="NewModule_or_Project.wizard" timestamp="1610331887261">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610331887261" />
+    <state x="2360" y="94" key="SettingsEditor" timestamp="1610529040094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610172387519" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610174489180" />
-    <state width="1794" height="272" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="329" key="GridCell.Tab.1.bottom" timestamp="1608790798294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790798294" />
-    <state width="1877" height="329" key="GridCell.Tab.1.center" timestamp="1608790798294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790798294" />
-    <state width="1877" height="329" key="GridCell.Tab.1.left" timestamp="1608790798293">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790798293" />
-    <state width="1877" height="329" key="GridCell.Tab.1.right" timestamp="1608790798294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="329" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790798294" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610528229794" />
+    <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610529040094" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608790216872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608790216872" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1610157926182">
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1610609067116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609067116" />
+    <state x="2254" y="180" key="new project wizard" timestamp="1610528587831">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610157926182" />
+    <state x="422" y="172" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610527762047" />
+    <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610528587831" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1610162171604">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610162171604" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608785647314">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610529887982">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785647314" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Reflection/src/main/java/ReflectionFrameDemo.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610331720106" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610529887982" />
   </component>
 </project>

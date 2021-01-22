@@ -6,7 +6,11 @@
         <option value="$PROJECT_DIR$/Reflection/pom.xml" />
         <option value="$PROJECT_DIR$/Annotation/pom.xml" />
         <option value="$PROJECT_DIR$/RedPacket/pom.xml" />
+        <option value="$PROJECT_DIR$/RedPacketVolidate/pom.xml" />
+        <option value="$PROJECT_DIR$/volatileDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/shiroDemo/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
