@@ -11,10 +11,12 @@
         <module name="RedPacket" />
         <module name="Annotation" />
         <module name="shiroDemo" />
+        <module name="LockDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Annotation" target="1.8" />
+      <module name="LockDemo" target="1.8" />
       <module name="RedPacket" target="8" />
       <module name="RedPacketVolidate" target="8" />
       <module name="Reflection" target="1.8" />

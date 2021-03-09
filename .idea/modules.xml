@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaBasic.iml" filepath="$PROJECT_DIR$/.idea/JavaBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LockDemo/LockDemo.iml" filepath="$PROJECT_DIR$/LockDemo/LockDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/RedPacketVolidate/RedPacket.iml" filepath="$PROJECT_DIR$/RedPacketVolidate/RedPacket.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/Reflection/Reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/shiroDemo/shiroDemo.iml" filepath="$PROJECT_DIR$/shiroDemo/shiroDemo.iml" />

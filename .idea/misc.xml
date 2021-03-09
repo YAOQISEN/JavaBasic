@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/RedPacketVolidate/pom.xml" />
         <option value="$PROJECT_DIR$/volatileDemo/pom.xml" />
         <option value="$PROJECT_DIR$/shiroDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/LockDemo/pom.xml" />
       </list>
     </option>
   </component>

@@ -29,27 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0335b8bb-6566-4347-90af-61b705985f95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shiroDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/Permissions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/filter/MyExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/service/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/shiro/CustomRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shiroDemo/src/main/java/com/yqs/shiroApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volatileDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/ResortSeqDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/VolatileAtomicDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volatileDemo/src/main/java/VolatileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaBasic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LockDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LockDemo/src/main/java/OddEventTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection/Reflection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection/Reflection.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../develop/apache-maven-3.6.0" />
+        <option name="mavenHome" value="F:\develop\apache-maven-3.6.0" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -108,10 +93,10 @@
       <recent name="F:\JavaNew\JavaBasic\volatileDemo\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.shiroApplication">
-    <configuration name="ReflectionDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectionDemo5" />
-      <module name="Reflection" />
+  <component name="RunManager" selected="Application.OddEventTest">
+    <configuration name="OddEventTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEventTest" />
+      <module name="LockDemo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +134,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="shiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="shiroDemo" />
       <extension name="coverage">
@@ -164,19 +160,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.VolatileAtomicDemo" />
-      <item itemvalue="Application.ReflectionDemo5" />
       <item itemvalue="Application.ReflectionFrameDemo" />
       <item itemvalue="Application.VolatileAtomicDemo (1)" />
       <item itemvalue="Application.VolatileDemo" />
       <item itemvalue="Spring Boot.shiroApplication" />
+      <item itemvalue="Application.OddEventTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddEventTest" />
         <item itemvalue="Spring Boot.shiroApplication" />
         <item itemvalue="Application.VolatileDemo" />
         <item itemvalue="Application.VolatileAtomicDemo (1)" />
         <item itemvalue="Application.ReflectionFrameDemo" />
-        <item itemvalue="Application.ReflectionDemo5" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +195,9 @@
       <workItem from="1610502341459" duration="636000" />
       <workItem from="1610527736140" duration="4507000" />
       <workItem from="1610588432354" duration="11994000" />
+      <workItem from="1611291678816" duration="2084000" />
+      <workItem from="1611368735154" duration="14000" />
+      <workItem from="1615253838210" duration="11224000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore文件">
       <created>1608790213327</created>
@@ -274,50 +273,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="287" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610331878432" />
-    <state width="1877" height="330" key="GridCell.Tab.0.bottom" timestamp="1610609076950">
+    <state width="1877" height="353" key="GridCell.Tab.0.bottom" timestamp="1615274269171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="353" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615274269171" />
     <state width="1794" height="272" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="330" key="GridCell.Tab.0.center" timestamp="1610609076950">
+    <state width="1877" height="353" key="GridCell.Tab.0.center" timestamp="1615274269171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="353" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615274269171" />
     <state width="1794" height="272" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="330" key="GridCell.Tab.0.left" timestamp="1610609076949">
+    <state width="1877" height="353" key="GridCell.Tab.0.left" timestamp="1615274269171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076949" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="353" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615274269171" />
     <state width="1794" height="272" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="330" key="GridCell.Tab.0.right" timestamp="1610609076950">
+    <state width="1877" height="353" key="GridCell.Tab.0.right" timestamp="1615274269171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="353" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615274269171" />
     <state width="1794" height="272" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1608771773245" />
-    <state width="1877" height="330" key="GridCell.Tab.1.bottom" timestamp="1610609076950">
+    <state width="1877" height="330" key="GridCell.Tab.1.bottom" timestamp="1615274075322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
-    <state width="1877" height="330" key="GridCell.Tab.1.center" timestamp="1610609076950">
+    <state width="1877" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615274075322" />
+    <state width="1877" height="330" key="GridCell.Tab.1.center" timestamp="1615274075322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
-    <state width="1877" height="330" key="GridCell.Tab.1.left" timestamp="1610609076950">
+    <state width="1877" height="330" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615274075322" />
+    <state width="1877" height="330" key="GridCell.Tab.1.left" timestamp="1615274075322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
-    <state width="1877" height="330" key="GridCell.Tab.1.right" timestamp="1610609076950">
+    <state width="1877" height="330" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615274075322" />
+    <state width="1877" height="330" key="GridCell.Tab.1.right" timestamp="1615274075322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="330" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609076950" />
     <state width="1877" height="289" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610367542545" />
+    <state width="1877" height="330" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615274075322" />
     <state width="1877" height="330" key="GridCell.Tab.2.bottom" timestamp="1610609076950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -351,11 +358,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610609067116" />
-    <state x="2254" y="180" key="new project wizard" timestamp="1610528587831">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="334" y="180" key="new project wizard" timestamp="1615253889658">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="422" y="172" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610527762047" />
     <state x="2254" y="180" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610528587831" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615253889658" />
     <state x="2536" y="240" key="run.anything.popup" timestamp="1610162171604">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -365,5 +373,16 @@
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610331720106" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610529887982" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LockDemo/src/main/java/OddEventTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
