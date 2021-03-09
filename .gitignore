@@ -99,3 +99,9 @@ Guardfile
 README.html
 *.iml
 .idea
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
